@@ -1,0 +1,12 @@
+--- "a/MTLove/mtlove-core/MTLoveUI.lua"
++++ "b/MTLove/mtlove-core/MTLoveUI.lua"
+@@ -62,9 +62,6 @@ function MTLove_UI_PostStatus(id)
+ 	elseif (id == "garbageclean") then
+ 		msg = MTLove_UI_GarbageClean;
+ 	end
+-	if (not (msg == nil)) then
+-		DEFAULT_CHAT_FRAME:AddMessage(msg);
+-	end
+ 
+ 	--MTLove_UI_Debug("msg", msg);
+ end

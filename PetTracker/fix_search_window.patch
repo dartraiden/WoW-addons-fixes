@@ -1,0 +1,15 @@
+--- "a/PetTracker/Features/MapFilter.lua"
++++ "b/PetTracker/Features/MapFilter.lua"
+@@ -52,10 +52,11 @@ function MapFilter:Init(frame)
+       search:HookScript('OnEditFocusLost', function()
+         SushiDropFrame:CloseAll()
+       end)
+-
++	if overlay.OnClick ~=nil then
+       overlay:SetScript('OnClick', function()
+         SushiDropFrame:Toggle('TOPLEFT', overlay, 'BOTTOMLEFT', 0, -15, true, self.ShowTrackingTypes)
+       end)
++	end
+ 
+       self.frames[frame] = search
+       self:UpdateSearch(frame)
