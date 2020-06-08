@@ -6,6 +6,3 @@
 ## MTLove2
 * GetRealmName.patch — GetCVar("realmName") was removed in 5.4.1 and should be replaces by GetRealmName()
 * nospam.patch — stop spamming chat at login
-
-## PetTracker
-* fix_search_window.patch — fix missing search window after 8.3
