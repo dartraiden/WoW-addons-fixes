@@ -3,6 +3,10 @@
 ## BugGrabber
 * nospam.patch — silence the plugin: no errors output to chat, no "There are too many errors in your UI" message, no reminder about /stopnag
 
+## ChatBar Classic
+* C_GuildInfo.CanEditOfficerNote.patch — CanEditOfficerNote() is deprecated since 8.2 and removed in 9.0.1
+* inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
+
 ## MTLove2
 * fix_sound.patch —  starting from 7.3.0, string-based input is not allowed for PlaySound
 * GetRealmName.patch — GetCVar("realmName") was removed in 5.4.1 and should be replaces by GetRealmName()
