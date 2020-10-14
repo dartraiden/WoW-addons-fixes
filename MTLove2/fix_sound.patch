@@ -1,0 +1,14 @@
+--- "a/MTLove/mtlove-core/MTLoveUI.lua"
++++ "b/MTLove/mtlove-core/MTLoveUI.lua"
+@@ -35,9 +35,9 @@ function MTLove_GUI_reset_to_defaults()
+ end
+ 
+ function MTLove_UI_playSound(set)
+-	local sound	= "igMainMenuOptionCheckBoxOff";
++	local sound	= "857";
+ 	if (set) then
+-		sound 	= "igMainMenuOptionCheckBoxOn";
++		sound 	= "856";
+ 	end
+ 	PlaySound(sound);
+ end
