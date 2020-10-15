@@ -20,3 +20,6 @@
 * inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
 * nospam.patch — stop spamming chat at login
 * UnitIsTapDenied.patch — UnitIsTapped() was removed in 7.0.3 and should be replaces by UnitIsTapDenied()
+
+## [Rare Share: Core](https://www.curseforge.com/wow/addons/rare-share)
+* inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
