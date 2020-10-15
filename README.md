@@ -11,6 +11,9 @@
 * ActionStatusDisplayMessage.patch — ActionStatus_DisplayMessage was replaced by ActionStatus:DisplayMessage in 9.0.1
 * inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
 
+## [Handynotes - Warfront Rares](https://www.curseforge.com/wow/addons/handynotes-warfrontrares)
+* IsQuestFlaggedCompleted.patch — IsQuestFlaggedCompleted is deprecated since 8.2.5 and removed in 9.0.1
+
 ## [MTLove2](https://www.curseforge.com/wow/addons/mtlove-2)
 * fix_sound.patch —  starting from 7.3.0, string-based input is not allowed for PlaySound
 * GetRealmName.patch — GetCVar("realmName") was removed in 5.4.1 and should be replaces by GetRealmName()
