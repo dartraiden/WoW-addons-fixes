@@ -1,7 +1,5 @@
-diff --git "a/mtlove-core/MTLove.xml" "b/mtlove-core/MTLove.xml"
-index 8077807..bbc9904 100644
---- "a/mtlove-core/MTLove.xml"
-+++ "b/mtlove-core/MTLove.xml"
+--- "a/MTLove/mtlove-core/MTLove.xml"
++++ "b/MTLove/mtlove-core/MTLove.xml"
 @@ -39,24 +39,16 @@
  		</Scripts>
  	</Frame>
