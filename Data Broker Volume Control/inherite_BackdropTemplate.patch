@@ -5,7 +5,7 @@
  
  function A:CreateSlidersFrame()
 -    local f = CreateFrame("Frame", "BrokerVolumeSlidersFrame", UIParent);
-+    local f = CreateFrame("Frame", "BrokerVolumeSlidersFrame", UIParent, BackdropTemplateMixin and "BackdropTemplate");
++    local f = CreateFrame("Frame", "BrokerVolumeSlidersFrame", UIParent, "BackdropTemplate");
      f:SetFrameStrata("DIALOG");
      f:SetSize(200, 305);
      f:SetClampedToScreen(true);
