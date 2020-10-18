@@ -1,0 +1,18 @@
+--- "a/HandyNotes_WarfrontRares/HandyNotes_WarfrontRares.lua"
++++ "b/HandyNotes_WarfrontRares/HandyNotes_WarfrontRares.lua"
+@@ -164,6 +164,15 @@ nodes["Darkshore"] = {
+ 	{ coord = 41403606, npcId = 144946, questId = { 54865, 54896 }, icon = "skull_grey", group = "rare_arathi", label = _L["Ivus the Forest Lord"], loot = {  }, note = _L["Horde only"], faction = "Horde", controllingFaction = "Horde" },
+ 	{ coord = 41243594, npcId = 144946, questId = { 54862, 54895 }, icon = "skull_grey", group = "rare_arathi", label = _L["Ivus the Decayed"], loot = {  }, note = _L["Alliance only"], faction = "Alliance", controllingFaction = "Alliance" },
+ --	{ coord = , npcId = , questId = {  }, icon = "skull_grey", group = "rare_darkshore", label = _L["Gren"], loot = {  }, note = nil },
++	-- Frightened Kodo
++	{ coord = 38006600, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 38503300, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 39205650, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 41275401, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 41316548, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 44006500, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 44046756, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
++	{ coord = 45005130, npcId = 148790, questId = { 22222, 22222 }, icon = "skull_grey", group = "rare_darkshore", label = _L["Frightened Kodo"], loot = { { itemId = 166433, itemType = itemTypeMount, mountId = 1201 } }, note = nil },
+ }
+ 
+ nodes["Arathi"] = {
