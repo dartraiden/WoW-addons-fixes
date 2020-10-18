@@ -12,6 +12,7 @@
 * inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
 
 ## [Handynotes - Warfront Rares](https://www.curseforge.com/wow/addons/handynotes-warfrontrares)
+* FrightenedKodo.patch — adds [Frightened Kodo](https://wowhead.com/npc=148790) spawn points
 * IsQuestFlaggedCompleted.patch — IsQuestFlaggedCompleted is deprecated since 8.2.5 and removed in 9.0.1
 
 ## [MTLove2](https://www.curseforge.com/wow/addons/mtlove-2)
