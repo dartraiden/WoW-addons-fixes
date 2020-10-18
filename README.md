@@ -24,5 +24,8 @@
 ## [Rare Share: Core](https://www.curseforge.com/wow/addons/rare-share)
 * inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
 
+## [tdBattlePetScript](https://www.curseforge.com/wow/addons/tdbattlepetscript)
+* inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
+
 ## [TransmogTokens](https://www.curseforge.com/wow/addons/transmogtokens)
 * inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
