@@ -22,5 +22,8 @@
 * SOUNDKIT.patch —  starting from 7.3.0, string-based input is not allowed for PlaySound
 * UnitIsTapDenied.patch — UnitIsTapped() was removed in 7.0.3 and replaced by UnitIsTapDenied()
 
+## [PortGear](https://www.curseforge.com/wow/addons/portgear)
+* BfA_items.patch — adds porting gear from BfA
+
 ## [TransmogTokens](https://www.curseforge.com/wow/addons/transmogtokens)
 * inherite_BackdropTemplate.patch — starting from 9.0.1, no frames have backdrops unless the addon imports/inherits the backdrop template
